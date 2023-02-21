@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Shantell+Sans:ital,wght@1,300&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+/*------------------- container start ---------------- */
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(122, 208, 225);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ---------------------login box start----------------*/
+.login-box{
+    height: 600px;
+    width: 350px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.insta{
+    font-family: 'Shantell Sans', cursive;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+}
+.username-box{
+    margin: 15px 70px 0 60px;
+}
+.login-name{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.username ,
+.password{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.username-input{
+    border:none;
+    background-color: transparent;
+    padding: 5px 39px;
+    outline: none;
+    letter-spacing: 1px;
+}
+.user-input{
+    border-bottom:1px solid black;
+    padding-bottom: 5px;
+}
+.forget-pass{
+   margin: 1px 0 0 116px;
+}
+.forget-pass a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    width: 100%;
+    padding: 5px 10px;
+    margin: 20px 0;
+    font-size: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #8d68c5, #e34494);
+    color: white;
+    border: none;
+}
+.username-box p{
+    text-align: center;
+}
+.icons{
+    display: flex;
+    font-size: 25px;
+    letter-spacing: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.signup{
+    margin-top: 20px;
+}
+.sign-in{
+    text-align: center;
+    margin-top: 15px;
+}
+/* ---------------------login box end -----------------*/
+/* ---------------------container end----------------- */
